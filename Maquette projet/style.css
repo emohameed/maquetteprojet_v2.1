@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav-bar fixed */
+    /* Start */
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    background-color: #f38e58;
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+}
+nav img{
+    padding: 10px 30px;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+nav ul li{
+    padding: 20px 33px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+nav ul li:hover{
+    background-color: white;
+    color: black;
+}
+.nav-buttons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#first-button{
+    padding: 17px 30px;
+    border-radius: 5px;
+    border: none;
+    background: #032030;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+#first-button:hover{
+    background-color: rgba(3,32,48,0.8);
+}
+#second-button{
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 2px white solid;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #f38e58;
+    cursor: pointer;
+}
+#second-button:hover{
+    background-color: rgb(255, 255, 255,0.2);
+}
+.nav-buttons a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+    /* End */
+
+/* CONTACT US */
+.contact_us{
+    width: 100%;
+    height: 425px;
+    background-color: #f38e58;
+    display: grid;
+    grid-template-rows: 78% 22%;
+    text-align: center;
+}
+.contact_us_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+h1{
+    font-size: 4.5em;
+    color: white;
+    font-weight: 600;
+}
+p{
+    font-size: 1.2em;
+    margin-top: 5px;
+    font-weight: 100;
+}
+/* CONTACT US END */
+
+/* REACH OUT TO US & LANDER TEAM SIDES */
+.sides{
+    display: flex;
+    width: 100%;
+}
+h2{
+    font-size: 1.9em;
+    color: #5BB5DE;
+    font-weight: 600;
+}
+.reach_out_to_us p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.reach_out_to_us{
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 40px;
+
+}
+.reach_out_to_us ul li{
+    list-style: none;
+    margin-top: 40px;
+}
+
+input, textarea{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.35rem;
+    color: #7F8C97;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #C0C6CC;
+    background: #fff;
+    width: 100%;
+    border-radius: 0.4rem;
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+#submit_button{
+    float: right;
+    background-color: #f38e58;
+    margin-top: 0.5em;
+    font-size: 80%;
+    padding: 1.6rem 3.3rem 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+#submit_button:hover{
+    background-color: #F49B6C;
+}
+.lander_team{
+    width: 50%;
+    margin-top: 80px;
+    
+}
+.lander_team a{
+    text-decoration: none;
+}
+.lander_team p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.others_ways_to_connect h3{
+    margin-top: 55px;
+    font-size: 1.75em;
+    font-weight: 400;
+}
+.others_ways_to_connect{
+    margin-right: 10px;
+}
+.color_orange{
+    color: #F49B6C;
+}
+
+.logo_paragraph{
+    display: flex;
+    margin-top: 10px;
+}
+.logo_paragraph i{
+    margin-top: 25px;
+    margin-right: 15px;
+}
+/* END */
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #404040;
+}
+.footerTitles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.titles{
+    padding-top: 30px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+.footerlast{
+    background-color: #333333;
+    padding: 10px 50px;
+}
+h5{
+    color: #ffffff;
+    font-size: 1.01em;
+}
+#footerbtn{
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #032030;
+    width: 150px;
+    height: fit-content;
+    padding: 10px 10px;
+    font-size: 10px;
+    color: white;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 900;
+}
+#footerbtn:hover{
+    background-color: rgba(3,32,48,0.4);
+}
+footer ul li{
+    list-style: none;
+}
+.nav-footer{
+    color: #b7b7b7;
+    font-size: 1em;
+    font-weight: 100;
+}
+footer a{
+    text-decoration: none;
+    color: #b7b7b7;
+    font-size: 1em;
+    font-weight: 100;
+}
+footer a:hover{
+    color: #F49B6C;
+}
+#footertext{
+    font-size: 1.01em;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+.icons i{
+    display: inline-block;
+    margin-right: 5px;
+}
+/* FOOTER END */
